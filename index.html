@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test Fellow</title>
+  <style>
+    :root {
+      --bg: #fdfcfa;
+      --text: #1d1d1f;
+      --muted: #5b5b60;
+      --accent: #1f5f8b;
+      --rule: #e2e0dc;
+      --todo-bg: #fff6d6;
+      --todo-border: #d9a400;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16171a;
+        --text: #ececec;
+        --muted: #a3a3a8;
+        --accent: #7fb6e0;
+        --rule: #2e3036;
+        --todo-bg: #3a3114;
+        --todo-border: #c99a1a;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.125rem;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 3rem 1rem 4rem;
+    }
+    header { margin-bottom: 2.5rem; }
+    h1 {
+      font-size: 2.5rem;
+      line-height: 1.1;
+      margin: 0 0 0.5rem;
+    }
+    .beat {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.25rem;
+    }
+    section {
+      border-top: 1px solid var(--rule);
+      padding-top: 1.5rem;
+      margin-top: 2rem;
+    }
+    h2 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 0 0 1rem;
+    }
+    a { color: var(--accent); }
+    .todo {
+      background: var(--todo-bg);
+      border: 2px dashed var(--todo-border);
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.95rem;
+    }
+    .todo-inline {
+      background: var(--todo-bg);
+      border: 1px dashed var(--todo-border);
+      border-radius: 4px;
+      padding: 0 0.3rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 0.95rem;
+    }
+    .clips { list-style: none; padding: 0; margin: 0; }
+    .clips li { margin-bottom: 1.25rem; }
+    .clip-outlet { color: var(--muted); font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Test Fellow</h1>
+      <p class="beat">Reporting fellow covering health care</p>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <!-- TODO: About text goes here. Waiting for Test Fellow to provide it. -->
+      <p class="todo">[ABOUT TEXT GOES HERE — to be provided]</p>
+    </section>
+
+    <section id="clips">
+      <h2>Clips</h2>
+      <!--
+        TODO: Add stories here. Copy this pattern for each one:
+        <li>
+          <a href="STORY URL">HEADLINE</a><br>
+          <span class="clip-outlet">OUTLET · DATE</span>
+        </li>
+      -->
+      <ul class="clips">
+        <li class="todo">[CLIPS GO HERE — headline, link, outlet and date for each story, to be provided]</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <!-- TODO: Replace the placeholder with the real email address. -->
+      <p>You can reach me at <span class="todo-inline">[EMAIL]</span>.</p>
+    </section>
+  </main>
+</body>
+</html>
