@@ -12,9 +12,9 @@ This repository is a journalist's personal website. GitHub Pages publishes it fr
 
 Keep this look on every change. Future changes should fit it, not replace it.
 
-- A serious newsroom feel: classic and restrained, nothing trendy or decorative.
-- A big serif headline with my name at the top.
+- Bold and modern, inspired by ProPublica's dark pages and The Markup's pink accent, without copying either site's logo, fonts or layout.
+- A very big, heavy serif headline with my name at the top (Playfair Display, falling back to Georgia), and my beat in bold serif below it.
 - Lots of white space: generous margins and room between sections.
-- Black text on a white background, with one accent color only: dark red (`#8b0000`). Use it sparingly, for section labels and link highlights. Don't add other colors.
-- Serif type for my name and the text. Small sans-serif type for section labels (in capitals) and for the outlet and date lines (as written, not forced into capitals).
+- A dark background (near-black `#0e0e0e`) with off-white text, and one accent color only: hot pink (`#ff2e7e`). Use it for section labels and their rules, link underlines and hover states. Don't add other colors.
+- Bold serif for my name, my beat and clip headlines; regular serif for body text. Small sans-serif type for section labels and for the outlet and date lines (as written, not forced into capitals).
 - Clips are a clean list that's easy to scan, newest first: one story per row, the headline in bold serif as the link, the outlet and date in small text beneath it, and a thin rule between stories. No images, cards or blurbs.
